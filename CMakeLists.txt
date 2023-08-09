@@ -25,6 +25,8 @@ target_link_libraries(pico-sim800l
     pico_stdlib
     lib 
     hardware_spi
+    hardware_uart
+    hardware_irq
 )
 
 # Enable usb output, disable uart output

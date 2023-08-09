@@ -1,8 +1,22 @@
 add_library(lib
-    sim800l.cpp
-    sim800l.h
+    MQTTSim800.cpp
+    MQTTSim800.h
     sysTimer.cpp
     sysTimer.h
+    MQTTConnect.h
+    MQTTConnectClient.c
+    MQTTDeserializePublish.c
+    MQTTFormat.c
+    MQTTFormat.h
+    MQTTPacket.c
+    MQTTPacket.h
+    MQTTPublish.h
+    MQTTSerializePublish.c
+    MQTTSubscribe.h
+    MQTTSubscribeClient.c
+    MQTTUnsubscribe.h
+    MQTTUnsubscribeClient.c
+    StackTrace.h
 )
 
 target_link_libraries(lib
